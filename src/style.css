@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url('/public/helveticaneue-medium.woff2');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('/public/helveticaneue.woff2');
+}
+
+@font-face {
+  font-family: font3;
+  src: url('/public/Poppins-Regular.ttf');
+}
+
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
