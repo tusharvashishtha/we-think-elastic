@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: font1;
-  src: url('/public/helveticaneue-medium.woff2');
+  src: url('/helveticaneue-medium.woff2');
 }
 
 @font-face {
   font-family: font2;
-  src: url('/public/helveticaneue.woff2');
+  src: url('/helveticaneue.woff2');
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: font5;
-  src: url('/public/fonnts.com-Ivy-Journal-Light.otf');
+  src: url('/fonnts.com-Ivy-Journal-Light.otf');
 }
 
 *{ 

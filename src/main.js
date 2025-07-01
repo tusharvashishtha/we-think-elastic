@@ -57,3 +57,12 @@ gsap.to(".page3span", {
     scrub: 2,
     scrollTrigger: ".page3span"
 })
+
+gsap.to(".page4Svg2", {
+  rotate: 360,
+  duration: 10,
+  ease: "none",
+  repeat: -1
+})
+
+
