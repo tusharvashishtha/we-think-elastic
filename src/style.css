@@ -12,27 +12,28 @@
 
 @font-face {
   font-family: font3;
-  src: url('/public/Poppins-Regular.ttf');
+  src: url('/Poppins-Regular.ttfn');
 }
 @font-face {
   font-family: font4;
-  src: url('/public/DegularDisplay-Bold.otf');
+  src: url('/font44.otf');
 }
 
 *{ 
-margin:0;
-padding:0;
+
 box-sizing: border-box;
 }
 
 html,body{
+  margin:0;
+padding:0;
 width:100%;
 height:100%;
-overflow-x: hidden;
- scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; 
-}
 
+}
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
 #navbar{
   padding: 30px;
 }
