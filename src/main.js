@@ -30,9 +30,9 @@ const tl = gsap.timeline();
 //   ease: 'power1.inOut'
 // });
 
-tl.from(".hello", {
-   height : 0,
-   duration: 0.6,
+tl.to(".hello", {
+   translateY: 1,
+   duration: 1,
    stagger: 0.1,
 
 },"-=0.5")
@@ -47,4 +47,13 @@ gsap.to("#video", {
     scrub: 1,
     // markers: true
   }
+})
+
+gsap.to(".page3span", {
+    translateY: 1,
+    duration: 0.7,
+    stagger: 0.1,
+    ease: 'power1.inOut',
+    scrub: 2,
+    scrollTrigger: ".page3span"
 })

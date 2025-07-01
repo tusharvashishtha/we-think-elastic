@@ -18,6 +18,10 @@
   font-family: font4;
   src: url('/font44.otf');
 }
+@font-face {
+  font-family: font5;
+  src: url('/public/fonnts.com-Ivy-Journal-Light.otf');
+}
 
 *{ 
 
