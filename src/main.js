@@ -65,4 +65,16 @@ gsap.to(".page4Svg2", {
   repeat: -1
 })
 
+gsap.to("#page5 h1", {
+  transform: "translateX(-150%)",
+  scrollTrigger: {
+    trigger: "#page5",
+    scroller: "body",
+    markers: true,
+    start: "top -10%",
+    end: "top -350%",
+    scrub: 2,
+    pin: true
+  }
+})
 
