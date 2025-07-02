@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+
 const images = document.querySelectorAll('.loaderImg');
 const tl = gsap.timeline();
 
@@ -65,16 +66,17 @@ gsap.to(".page4Svg2", {
   repeat: -1
 })
 
-gsap.to("#page5 h1", {
-  transform: "translateX(-150%)",
-  scrollTrigger: {
-    trigger: "#page5",
-    scroller: "body",
-    markers: true,
-    start: "top -10%",
-    end: "top -350%",
-    scrub: 2,
-    pin: true
-  }
-})
+// gsap.to("#page5 h1", {
+//   transform: "translateX(-150%)",
+//   duration: 4,
+//   scrollTrigger: {
+//     trigger: "#page5",
+//     scroller: "body",
+//     markers: true,
+//     start: "top -10%",
+//     end: "top -350%",
+//     scrub: 2,
+//     pin: true
+//   }
+// })
 
