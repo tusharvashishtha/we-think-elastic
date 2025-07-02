@@ -7,6 +7,9 @@
     <title>Vite App</title>
   </head>
   <body>
+
+      
+
     <!-- <div id="loader" class="w-full h-full absolute z-9999 bg-[#F3C77C] flex items-center justify-center">
       <div class="relative w-80 h-80 flex items-center justify-center">
         <img class="loaderImg opacity-0 absolute top-0 left-0 w-full h-full" src="https://wethinkelastic.com/assets/images/152c223f4359675788470.svg" alt="">
@@ -25,7 +28,7 @@
     <div id="main" class="h-full w-full">
       <div
         id="navbar"
-        class="h-30 fixed z-99 flex w-[100vw] justify-between items-center bg-[#151414]"
+        class="h-30 transition-transform duration-500 fixed z-99 flex w-[100vw] justify-between items-center overflow-hidden bg-[#151414]"
       >
         <div id="navLeft">
           <svg
@@ -96,7 +99,7 @@
         class="bg-[#151414] text-[#F3C77C] w-full h-[120vh] flex flex-col justify-start items-center"
       >
         <div
-          class="h-[40vw] w-full flex items-center gap-[30px] justify-center font-[font4] font-semibold text-[45vw] overflow-hidden"
+          class="h-[40vw] w-full flex items-center gap-[30px] justify-center font-[font4] py-8 font-semibold text-[45vw] overflow-hidden"
         >
           <span class="hello inline-block translate-y-full">h</span>
           <span class="hello inline-block translate-y-full">e</span>
@@ -162,24 +165,24 @@
       </div>
 
       <div id="page4" class="h-fit w-full bg-[#151414]">
+  
         <div
           id="page41stPart"
           class="h-[120vh] p-20 flex justify-center items-center"
         >
           <div class="h-[100vh] w-[50%] flex flex-col justify-center">
             <div
-              id="videoContainer"
-              class="w-[40vw] mb-[10px] h-[70vh] overflow-hidden"
-            >
-              <video class=" " src="./video1.mp4" autoplay muted loop></video>
-            </div>
-            <span
-              class="font-[font2] text-xl font-semibold text-white uppercase"
-            >
-              Hec Paris IEC
-              <br />
-              Branding, Digital, Stratégie
-            </span>
+  id="videoContainer"
+  class="w-[40vw] cursordiv mb-[10px] hover:scale-98 duration-500 h-[70vh]  overflow-hidden relative"
+>
+     <div id="cursor"
+          class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
+          <i class="ri-arrow-right-long-line text-white"></i>
+        </div>
+
+
+  <video class="hover:scale-115 duration-500 object-cover w-full h-full" src="./video1.mp4" autoplay muted loop></video>
+</div>
           </div>
           <div
             id="page4RightDiv"
@@ -487,8 +490,13 @@
               id="page4rightphotoandTxtContainer"
               class="h-[80%]gap-y-5 flex justify-end flex-col w-[60%]"
             >
-              <div id="page4RightPhoto" class="overflow-hidden mb-[10px]">
-                <img src="./photo1.webp" alt="" />
+            
+              <div id="page4RightPhoto" class="cursordiv hover:scale-98 duration-500 overflow-hidden mb-[10px]">
+                 <div id="cursor"
+          class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
+          <i class="ri-arrow-right-long-line text-white"></i>
+        </div>
+                <img class="hover:scale-115 duration-500" src="./photo1.webp" alt="" />
               </div>
               <span
                 class="font-[font2] text-xl font-semibold text-white uppercase"
@@ -504,8 +512,12 @@
           <div id="page42endPartLeft" class="h-[100%] w-[50%] px-12 pt-12">
             <div
               id="page42ndPartVideoContainer"
-              class="h-[45%] w-[70%] hover:scale-95 duration-500 overflow-hidden mb-[10px]"
+              class="h-[45%] cursordiv w-[70%] hover:scale-98 duration-500 overflow-hidden mb-[10px]"
             >
+             <div id="cursor"
+          class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
+          <i class="ri-arrow-right-long-line text-white"></i>
+        </div>
               <video
                 src="./video3.mp4"
                 class="hover:scale-115 duration-500"
@@ -526,8 +538,12 @@
           >
             <div
               id="page42ndPartVideoContainer"
-              class="h-[65%] w-[100%] hover:scale-95 duration-500 overflow-hidden mb-[10px]"
+              class=" h-[65%] cursordiv w-[100%] hover:scale-95 duration-500 overflow-hidden mb-[10px]"
             >
+             <div id="cursor"
+          class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
+          <i class="ri-arrow-right-long-line text-white"></i>
+        </div>
               <img
                 src="./photo3.webp"
                 class="h-[100%] object-cover w-[100%] hover:scale-115 duration-500"
@@ -551,10 +567,14 @@
           >
             <div
               id="page43rdPartImgContainer"
-              class="h-[100vh] w-[100%] mb-[10px] overflow-hidden"
+              class="h-[100vh] w-[100%] cursordiv hover:scale-98 duration-500 mb-[10px] overflow-hidden"
             >
+             <div id="cursor"
+          class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
+          <i class="ri-arrow-right-long-line text-white"></i>
+        </div>
               <img
-                class="h-full w-full object-cover"
+                class=" hover:scale-115 duration-500 h-full w-full object-cover"
                 src="./photo4.webp"
                 alt=""
               />
@@ -589,13 +609,16 @@
           id="page5h1"
           class="text-[40rem] font-[font2] uppercase font-semibold"
         >
+        <img class="h-45 rotate-4 absolute top-[65%] left-[45%]" src="https://wethinkelastic.com/assets/images/556ce542d7fdbd78d032e.svg" alt="">
+        <img class="h-45 -rotate-4 absolute top-[17%] left-[120%]" src="https://wethinkelastic.com/assets/images/6a714ad31db5d83bc967b.svg" alt="">
+        <img class="h-45 rotate-4 absolute top-[65%] left-[185%]" src="https://wethinkelastic.com/assets/images/8a2db0cd90582eb4b877d.svg" alt="">
           Expertises
         </h1>
       </div>
-
+<!-- bg-[#9AC1CB] -->
       <div
         id="page6"
-        class="w-full bg-[#9AC1CB] flex items-center flex-wrap justify-between p-30"
+        class="w-full bg-[#9AC1CB] flex items-center flex-wrap justify-between px-30 py-10"
       >
         <div id="page6div1" class="m-10">
           <h1
@@ -818,6 +841,58 @@
           />
         </div>
       </div>
+
+      <div id="page8" class="h-fit w-full font-semibold p-30 bg-[#E7CFB1] flex flex-col justify-center items-center">
+        <div class="h-[13%]  w-[70%]  flex justify-center items-center overflow-hidden ">
+          <h1 class="text-7xl uppercase font-[font2] translate-y-[100%]">
+            Vous avez un beau
+          </h1>
+        </div>
+        <div class="h-[13%]  w-[70%] flex justify-center items-center overflow-hidden">
+          <h1 class="text-7xl uppercase font-[font2] translate-y-[100%]">
+            projet ? parlons-en
+          </h1>
+        </div>
+       <div class="h-[13%] w-[70%] flex justify-center items-center overflow-hidden">
+  <h1 class="text-7xl uppercase font-[font2] translate-y-[100%] mb-15">
+    autour d'un 
+    <span class="relative inline-block group font-[font2] uppercase font-semibold ml-3">
+      Bon café
+      <span class="absolute left-0 -bottom-2 h-[4px] w-full bg-[#000000] scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+    </span>
+  </h1>
+</div>
+        <div class="h-[43vh] w-[25%]  overflow-hidden">
+          <img class="h-full w-full object-center object-cover" src="./public/gif1.gif" alt="">
+        </div>
+      </div>
+
+
+
+     <div id="page9" class="w-full h-[60vh] flex flex-col bg-[#151414] justify-end p-10 gap-20">
+  <div class="h-[40%] w-[90%]">
+    <span class="font-[font2] uppercase text-8xl font-semibold text-[#695F53]">Suivant / </span>
+
+ 
+    <span class="relative inline-block group font-[font2] uppercase text-8xl font-semibold text-[#E7CFB1]">
+      Projects
+    
+      <span
+        class="absolute left-0 -bottom-2 h-[4px] w-full bg-[#E7CFB1] scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"
+      ></span>
+    </span>
+  </div>
+
+  <div class="flex justify-between w-full font-[font2] uppercase font-semibold text-[#E7CFB1]">
+    <span>© 2024 wethinkelastic</span>
+    <span>Nos actus</span>
+    <span>uncafe@wethinkelastic.com</span>
+    <span>Cookies</span>
+    <span>Mentions légales</span>
+  </div>
+</div>
+
+
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
