@@ -5,39 +5,39 @@ gsap.registerPlugin(ScrollTrigger);
 import 'remixicon/fonts/remixicon.css'
 
 
-const images = document.querySelectorAll('.loaderImg');
-const tl = gsap.timeline();
+// const images = document.querySelectorAll('.loaderImg');
+// const tl = gsap.timeline();
 
-images.forEach((img) => {
-  tl.to(img, {
-    opacity: 1,
-    duration: 0.1,
-  })
-  .to(img, {
-    opacity: 0,
-    duration: 0.1,
-  })
-});
+// images.forEach((img) => {
+//   tl.to(img, {
+//     opacity: 1,
+//     duration: 0.1,
+//   })
+//   .to(img, {
+//     opacity: 0,
+//     duration: 0.1,
+//   })
+// });
 
-tl.to(images, {
-  height: 0,
-  duration: 0.1,
-  ease: 'power1.inOut'
-})
+// tl.to(images, {
+//   height: 0,
+//   duration: 0.1,
+//   ease: 'power1.inOut'
+// })
 
-tl.to("#loader", {
-  height: 0,
-  duration: 1,
-  delay: 0.2,
-  ease: 'power1.inOut'
-});
+// tl.to("#loader", {
+//   height: 0,
+//   duration: 1,
+//   delay: 0.2,
+//   ease: 'power1.inOut'
+// });
 
-tl.to(".hello", {
-   translateY: 1,
-   duration: 1,
-   stagger: 0.1,
+// tl.to(".hello", {
+//    translateY: 1,
+//    duration: 1,
+//    stagger: 0.1,
 
-},"-=0.5")
+// },"-=0.5")
 
 gsap.to("#video", {
   scale: 1,

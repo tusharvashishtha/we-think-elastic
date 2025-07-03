@@ -34,6 +34,7 @@ html,body{
 padding:0;
 width:100%;
 height:100%;
+background-color: #151414;
 }
 ::selection{
   color: #f3c77c;
@@ -44,6 +45,4 @@ height:100%;
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
-#navbar{
-  padding: 30px;
-}
+

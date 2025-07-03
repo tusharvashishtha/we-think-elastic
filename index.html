@@ -10,7 +10,7 @@
 
       
 
-    <div id="loader" class="w-full h-full absolute z-9999 bg-[#F3C77C] flex items-center justify-center">
+    <!-- <div id="loader" class="w-full h-full absolute z-9999 bg-[#F3C77C] flex items-center justify-center">
       <div class="relative w-80 h-80 flex items-center justify-center">
         <img class="loaderImg opacity-0 absolute top-0 left-0 w-full h-full" src="https://wethinkelastic.com/assets/images/152c223f4359675788470.svg" alt="">
         <img class="loaderImg opacity-0 absolute top-0 left-0 w-full h-full" src="https://wethinkelastic.com/assets/images/24a07612b16472c6a503f.svg" alt="">
@@ -24,11 +24,11 @@
         <img class="loaderImg opacity-0 absolute top-0 left-0 w-full h-full" src="https://wethinkelastic.com/assets/images/109804494fa1878703f2c1.svg" alt="">
         <img class="loaderImg opacity-0 absolute top-0 left-0 w-full h-full" src="https://wethinkelastic.com/assets/images/11d1acd8abd7b1efc4c23d.svg" alt="">
       </div>
-    </div>
+    </div> -->
     <div id="main" class="h-full w-full">
       <div
         id="navbar"
-        class="h-30 transition-transform duration-500 fixed z-99 flex w-[100vw] justify-between items-center overflow-hidden bg-[#151414]"
+        class="h-30 transition-transform duration-500 fixed z-99 flex w-[100vw] p-5 justify-between items-center overflow-hidden bg-[#151414]"
       >
         <div id="navLeft">
           <svg
@@ -74,40 +74,43 @@
             </g>
           </svg>
         </div>
-        <div id="navRight" class="flex gap-25">
+        <div id="navRight" class="flex gap:5 md:gap-25">
           <span
-            class="text-2xl font-[font1] text-[#F3C77C] hover:text-[#E5813E] duration-200"
+            class="md:text-[2vw] lg:text-2xl font-[font1]  hidden md:inline  text-[#F3C77C] hover:text-[#E5813E] duration-200"
             >Projects</span
           >
           <span
-            class="text-2xl font-[font1] text-[#F3C77C] hover:text-[#E5813E] duration-200"
+            class="md:text-[2vw] lg:text-2xl font-[font1]  hidden md:inline text-[#F3C77C] hover:text-[#E5813E] duration-200"
             >Expertise</span
           >
           <span
-            class="text-2xl font-[font1] text-[#F3C77C] hover:text-[#E5813E] duration-200"
+            class="md:text-[2vw] lg:text-2xl font-[font1]  hidden md:inline text-[#F3C77C] hover:text-[#E5813E] duration-200"
             >The Team</span
           >
           <span
-            class="text-2xl font-[font1] text-[#F3C77C] hover:text-[#E5813E] duration-200"
+            class="md:text-[2vw] lg:text-2xl font-[font1]  hidden md:inline text-[#F3C77C] hover:text-[#E5813E] duration-200"
             >Contact</span
           >
+      
+          <i class="ri-menu-line text-white h-25 inline mt-15  md:hidden"></i>
+  
         </div>
       </div>
 
       <div
         id="page1"
-        class="bg-[#151414] text-[#F3C77C] w-full h-[120vh] flex flex-col justify-start items-center"
+        class="bg-[#151414] text-[#F3C77C] w-full md:h-[120vh] h-[60vh] flex flex-col justify-start items-center"
       >
         <div
-          class="h-[40vw] w-full flex items-center gap-[30px] justify-center font-[font4] mt-[25px]  font-semibold text-[46vw] overflow-hidden"
+          class="h-[70%]  w-full flex items-center md:gap-[30px] gap-[20px] justify-center font-[font4] mt-[25px]  font-semibold md:text-[46vw] text-[40vw] overflow-hidden"
         >
-          <span class="hello inline-block translate-y-full">h</span>
-          <span class="hello inline-block translate-y-full">e</span>
-          <span class="hello inline-block translate-y-full">l</span>
-          <span class="hello inline-block translate-y-full">l</span>
-          <span class="hello inline-block translate-y-full">o</span>
+        <span class="hello inline-block mt-40 md:mt-10 translate-y-full">h</span>
+        <span class="hello inline-block mt-40 md:mt-10 translate-y-full">e</span>
+          <span class="hello inline-block mt-40 md:mt-10 translate-y-full">l</span>
+          <span class="hello inline-block mt-40 md:mt-10 translate-y-full">l</span>
+          <span class="hello inline-block mt-40 md:mt-10 translate-y-full">o</span>
         </div>
-        <div class="mt-20 text-5xl">
+        <div class="mt-20 h-[30%] text-5xl flex flex-col items-center justify-center">
           <h1>We are the team</h1>
           <h1>We think elastic</h1>
         </div>
@@ -127,35 +130,35 @@
 
       <div
         id="page3"
-        class="h-fit text-[#E7CFB1] w-full pt-30 pb-30 bg-[#151414] flex flex-col items-center justify-center overflow-hidden"
+        class="h-fit text-[#E7CFB1] w-full pt-30 pb-30 bg-[#151414] text-center flex flex-col items-center justify-center overflow-hidden"
       >
-        <h1 class="text-[12rem] font-[font1] leading-[12rem] w-[80%]">
-          <div class="h-[12%] ml-5 overflow-hidden">
+        <h1 class="lg:text-[12rem] md-[8xl] text-7xl font-[font1] md:leading-[6rem] lg:leading-[12rem] leading-25 w-[80%]">
+          <div class="h-[12%] ml-5  overflow-hidden">
             <span
-              class="page3span text-[10rem] font-[font5] inline-block translate-y-full"
+              class="page3span lg:text-[10rem] md:text-[5xl] text-6xl font-[font5] inline-block translate-y-full"
               >We</span
             >
             <span class="page3span inline-block translate-y-full">help</span>
           </div>
-          <div class="h-[12%] overflow-hidden">
+          <div class="md:h-[12%] h-fit w-full overflow-hidden ">
             <span class="page3span inline-block translate-y-full">The</span>
             <span class="page3span inline-block translate-y-full">Brands</span>
           </div>
-          <div class="h-[12%] overflow-hidden">
+          <div class="h-[12%] overflow-hidden ">
             <span class="page3span inline-block translate-y-full">Grow</span>
             <span
-              class="page3span inline-block font-[font5] translate-y-full text-[10rem]"
+              class="page3span inline-block font-[font5] translate-y-full lg:text-[10rem] md:text-[5xl]"
               >More</span
             >
           </div>
           <div
-            class="h-[12%] overflow-hidden flex justify-center gap-x-15 items-center"
+            class="lg:h-[12%] md:h-[20%] h-fit  overflow-hidden flex flex-col md-flex-row justify-center gap-x-15 items-center"
           >
             <span class="page3span inline-block translate-y-full">Quickly</span>
             <div
-              class="h-[12%] w-[15vw] overflow-hidden flex justify-center gap-x-15 items-center"
+              class="md:h-[12%] h-[20vh] lg:w-[15vw] md:w-[40vw] w-[70%]  text-center overflow-hidden flex justify-center gap-x-15 items-center"
             >
-              <span class="text-xl inline-block">
+              <span class="page3span translate-y-full text-xl inline-block">
                 grâce à un Storytelling impactant une identité visuelle forte
                 des interfaces digitales ultra fluides
               </span>
@@ -164,16 +167,16 @@
         </h1>
       </div>
 
-      <div id="page4" class="h-fit w-full bg-[#151414]">
+      <div id="page4" class="h-fit w-full bg-[#151414] overflow-hidden">
   
         <div
           id="page41stPart"
-          class="h-[120vh] p-20 flex justify-center items-center"
+          class="h-[120vh] lg:p-20 bg-amber-300 flex flex-col-reverse lg:flex-row justify-center items-center"
         >
           <div class="h-[100vh] w-[50%] flex flex-col justify-center">
             <div
   id="videoContainer"
-  class="w-[40vw] cursordiv mb-[10px] hover:scale-98 duration-500 h-[70vh]  overflow-hidden relative"
+  class="lg:w-[40vw] w-[100vw] h-[40%] cursordiv mb-[10px] hover:scale-98 duration-500 lg:h-[70vh] bg-red-500  overflow-hidden relative"
 >
      <div id="cursor"
           class="cursor bg-[#151414] rounded-full text-4xl absolute z-50 h-[90px] w-[90px] flex items-center justify-center">
