@@ -35,6 +35,7 @@ padding:0;
 width:100%;
 height:100%;
 background-color: #151414;
+overflow-x: hidden;
 }
 ::selection{
   color: #f3c77c;
