@@ -129,10 +129,27 @@ cursorDivs.forEach(div => {
   });
 });
 
+let lastScroll = 0;
+
+window.addEventListener("wheel", (event) => {
+  if (event.deltaY > 0) {
+    gsap.to("#navbar", {
+      y: "-100%",
+      duration: 0.1,
+     
+    });
+  } else {
+    gsap.to("#navbar", {
+      y: "0%",
+      duration: 0.1,
+     
+    });
+  }
+});
+
 
 
 let lastScrollY = window.scrollY;
-
 window.addEventListener('scroll', function () {
   const navBar = document.getElementById('navbar');
   const currentScrollY = window.scrollY;
